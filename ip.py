@@ -12,7 +12,7 @@ from colorclass import Color
 IP = raw_input("ENTER IP : ")
 
 
-#80.119.33.144
+
 api_ip = 'http://ip-api.com/json/' + IP
 query = json.load(urllib2.urlopen(api_ip))
 
